@@ -64,3 +64,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________
 #  Tool Calling ~
    It is used to interect with external resources, such as APIs, databases and the web
+# LLM tells us when will the exact toll should be executed so that we could execute tools based on the query
+
+# tool_calls - Tavilly is good for api
+  till the llm starts generating the answer it runs different tools to get the answer , when it gets the exact tools for the operation it starts generating nd stops searching for the other tools 
