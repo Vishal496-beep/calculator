@@ -39,7 +39,7 @@ async function main() {
           content: question
         })
 
-        while (true) {
+   while (true) {
   const completion = await groq.chat.completions.create({
     model:'openai/gpt-oss-120b',
     temperature: 0,

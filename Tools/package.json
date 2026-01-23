@@ -1,9 +1,25 @@
 {
-   "type": "module",
-   "dependencies": {
-      "@tavily/core": "^0.6.0",
-      "groq-sdk": "^0.37.0",
-      "llama": "^2.2.0",
-      "openai": "^6.10.0"
-   }
+  "name": "generativeai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LLM(Large Language Models) bigger ones & comes in trillions\r SLM(Small Language Models) smaller ones = 70b\r first nodejs second api of model third model download fourth type in json type::module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tavily/core": "^0.6.4",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "grok-sdk": "^0.0.1-security",
+    "groq-sdk": "^0.37.0",
+    "llama": "^2.2.0",
+    "node-cache": "^5.1.2",
+    "nodemon": "^3.1.11",
+    "openai": "^6.16.0"
+  }
 }
